@@ -1,8 +1,8 @@
 import React from 'react'
-
+import keyboard from '../images/keyboard.jpg'
 const Introduction = () => {
   return (
-    <section className='intro'>
+    <section className='intro' id='home'>
       <h1 className='section-title section-title-intro'>
        Hello there, I'm  <strong> Zulma Rocio </strong>      
       </h1>
@@ -11,6 +11,7 @@ const Introduction = () => {
         I would love to help you build your product, <br />    
         feature, website, feel free to contact me.        
       </p>
+      <img src={keyboard} alt='keyboard' />
     </section>
   )
 }
