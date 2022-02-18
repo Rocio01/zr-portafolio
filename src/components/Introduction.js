@@ -11,7 +11,7 @@ const Introduction = () => {
         I would love to help you build your product, <br />    
         feature, website, feel free to contact me.        
       </p>
-      <img src={keyboard} alt='keyboard' />
+      <img src={keyboard} alt='keyboard' className='intro-img' />
     </section>
   )
 }
