@@ -32,6 +32,27 @@
     --fs-body: 1.125rem;
   }
 }
+.btn {
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  background: var(--clr-accent);
+  color: var(--clr-dark);
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: var(--fw-bold);
+  transition: transform 200ms ease-in-out;
+}
+.services-button {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
 
 section {
   padding: 5em 2em;
@@ -143,9 +164,38 @@ h3 {
   position: relative;
   max-width: 900px;
   margin: 0 auto;
+  padding-bottom: 1%;
 }
 
 .service {
   max-width: 900px;
   margin: 0 auto;
+}
+
+.about-me {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.about-me-img {
+  box-shadow: var(--bs);
+}
+@media (min-width: 600px) {
+  .about-me {
+    display: grid;
+    text-align: end;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas:
+      "img title"
+      "img subtitle"
+      "img text";
+    grid-column-gap: 2em;
+  }
+
+  .section-title-about {
+    grid-area: title;
+  }
+
+  .about-me-img {
+    grid-area: img;
+  }
 }
