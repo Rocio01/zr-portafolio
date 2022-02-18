@@ -6,10 +6,11 @@ import Copito from '../images/copito-bot.PNG'
 const Work = () => {
   return (
     <section className="my-work" id="work">
-    <h2 className="section-ktitle">My work</h2>
-    <p className="section-subtitle"></p>
+    <h2 className="section-title section-title-work">My work</h2>
+    <p className="section-subtitle section-subtitle-work">Some examples of my work</p>
     
     <div className="portfolio">
+        
         <a href="#" className="portfolio-item">
             <img src={ReactCapstone} alt="" className="portfolio-img" />
         </a>
