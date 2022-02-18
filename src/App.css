@@ -135,4 +135,17 @@ h3 {
   background-image: url(./images/background.jpg);
   background-size: cover;
   color: var(--clr-light);
+  font-weight: bolder;
+}
+
+.section-title-services {
+  color: var(--clr-accent);
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.service {
+  max-width: 900px;
+  margin: 0 auto;
 }
