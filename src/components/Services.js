@@ -3,25 +3,16 @@ import React from 'react'
 const Services = () => {
   return (
     <section className="my-services" id="services">
-    <h2 className="section-title section-title-services">What I do</h2>
-    <div className="services">
-        <div className="service">
-            <h3></h3>
-            <p></p>
-        </div> 
-        
-        <div className="service">
-            <h3></h3>
-            <p></p>
-        </div> 
-        
-        <div className="service">
-            <h3></h3>
-            <p></p>
-        </div> 
-    </div>
-    <a href="#work" className="btn">My Work</a>
-</section>
+            <h2 className="section-title section-title-services">What I do</h2>
+            <div className="services">
+                <div className="service">
+                    <h3>Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div> 
+            
+            <a href="#work" className="btn">My Work</a>
+            </div>
+    </section>
   )
 }
 
