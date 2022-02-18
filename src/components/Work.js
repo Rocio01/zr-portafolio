@@ -5,22 +5,22 @@ import JsProject from '../images/js-project.PNG'
 import Copito from '../images/copito-bot.PNG'
 const Work = () => {
   return (
-    <section class="my-work" id="work">
-    <h2 class="section-ktitle">My work</h2>
-    <p class="section-subtitle"></p>
+    <section className="my-work" id="work">
+    <h2 className="section-ktitle">My work</h2>
+    <p className="section-subtitle"></p>
     
-    <div class="portfolio">
-        <a href="#" class="portfolio-item">
-            <img src={ReactCapstone} alt="" class="portfolio-img" />
+    <div className="portfolio">
+        <a href="#" className="portfolio-item">
+            <img src={ReactCapstone} alt="" className="portfolio-img" />
         </a>
-        <a href="#" class="portfolio-item">
-            <img src={RailsCapstone} alt="" class="portfolio-img" />
+        <a href="#" className="portfolio-item">
+            <img src={RailsCapstone} alt="" className="portfolio-img" />
         </a>
-        <a href="#" class="portfolio-item">
-            <img src={JsProject} alt="" class="portfolio-img" />
+        <a href="#" className="portfolio-item">
+            <img src={JsProject} alt="" className="portfolio-img" />
         </a>
-        <a href="#" class="portfolio-item">
-            <img src={Copito} alt="" class="portfolio-img" />
+        <a href="#" className="portfolio-item">
+            <img src={Copito} alt="" className="portfolio-img" />
         </a>
         
         

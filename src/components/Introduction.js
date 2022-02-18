@@ -4,7 +4,7 @@ const Introduction = () => {
   return (
     <section className='intro' id='home'>
       <h1 className='section-title section-title-intro'>
-       Hello there, I'm  <strong> Zulma Rocio </strong>      
+       Hello there, I'm <br /> <strong> Zulma Rocio </strong>      
       </h1>
       <p className='section-subtitle section-subtitle-intro'>
         I'm Software developer <br />       

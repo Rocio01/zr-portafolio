@@ -30,6 +30,10 @@
   }
 }
 
+section {
+  padding: 5em 2em;
+}
+
 body {
   background: var(--clr-light);
   color: var(--clr-dark);
@@ -37,6 +41,10 @@ body {
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
   line-height: 1.6;
+}
+
+strong {
+  font-weight: var(--fw-bold);
 }
 
 img {
@@ -59,4 +67,23 @@ h2 {
 }
 h3 {
   font-size: var(--fs-h3);
+}
+
+.section-title {
+  margin-bottom: 0.25em;
+}
+
+.section-subtitle {
+  margin: 0;
+  font-size: var(--fs-h3);
+}
+
+.section-title-intro {
+  font-weight: var(--fw-reg);
+}
+
+.section-subtitle-intro,
+.section-subtitle-about {
+  background: var(--clr-accent);
+  font-family: var(--ff-secondary);
 }
