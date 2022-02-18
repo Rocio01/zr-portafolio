@@ -1,5 +1,5 @@
 import React from 'react'
-import Computer from '../images/eyeglasses-g08fdd365f_640.png'
+import Computer from '../images/glasses-computer.jpg'
 const About = () => {
   return (
     <section class="about-me" id="about">
