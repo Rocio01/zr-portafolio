@@ -206,7 +206,7 @@ h3 {
   text-align: center;
 }
 
-.section__subtitle--work {
+.section-subtitle-work {
   color: var(--clr-accent);
   font-weight: var(--fw-bold);
   margin-bottom: 2em;
@@ -222,8 +222,15 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .portfolio-img {
   padding: 1em;
+  transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
+}
+
+.portfolio-img:hover {
+  transform: scale(1.2);
+  opacity: 0.75;
 }
