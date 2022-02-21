@@ -1,9 +1,9 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import ReactCapstone from '../images/react-capstone.PNG'
 import RailsCapstone from '../images/rails-time-trac.PNG'
 import JsProject from '../images/js-project.PNG'
 import Copito from '../images/copito-bot.PNG'
-
 import { useSelector } from 'react-redux';
 const Work = () => {
 
@@ -21,9 +21,9 @@ const Work = () => {
     <div className="portfolio">
         {worksState.map((work) => (
            
-        <a href="#work" className="portfolio-item" key={work.id}>
+        <Link to={`/details/${work.imageName}`} className="portfolio-item" key={work.id}>
             <img src={eval(work.imageName)} alt="" className="portfolio-img" key={work.id}/>
-        </a>
+        </Link>
             
         ))}        
         

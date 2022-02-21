@@ -1,20 +1,20 @@
 import './App.css';
-import Header from './components/Header';
-import Introduction from './components/Introduction';
-import Services from './components/Services';
-import About from './components/About';
-import Work from './components/Work';
-import Footer from './components/Footer';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Routing from './components/Routing';
+import DetailedWork from './components/DetailedWork';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Introduction />
-      <Services />
-      <About />
-      <Work />
-      <Footer />
+      <Router>
+
+      <Routes>
+        <Route exact path="/" element={ <Routing />} />
+        <Route exact path="/details/:imageName" element={ <DetailedWork />} />
+          
+      </Routes>
+  
+      </Router>
     </div>
   );
 }
