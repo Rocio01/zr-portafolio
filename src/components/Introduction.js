@@ -12,6 +12,7 @@ const Introduction = () => {
         feature, website, feel free to contact me.        
       </p>
       <img src={keyboard} alt='keyboard' className='intro-img' />
+      <a href="#footer" className="btn">Contact</a>
     </section>
   )
 }

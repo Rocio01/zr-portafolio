@@ -5,7 +5,8 @@
 }
 
 :root {
-  --ff-primary: "Source Sans Pro", sans-serif;
+  /* 'Roboto Serif', sans-serif; */
+  --ff-primary: "Monserrat", sans-serif;
   --ff-secondary: "Source Code Pro", monospace;
 
   --fw-reg: 300;
@@ -41,10 +42,10 @@ html {
   display: inline-block;
   padding: 0.5em 1.5em;
   background: var(--clr-accent);
-  color: var(--clr-dark);
+  color: var(--clr-light);
   text-decoration: none;
   cursor: pointer;
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: var(--fw-bold);
@@ -105,6 +106,7 @@ h3 {
 .section-subtitle {
   margin: 0;
   font-size: var(--fs-h3);
+  font-weight: 700;
 }
 
 .section-title-intro {
@@ -162,6 +164,7 @@ h3 {
   background-size: cover;
   color: var(--clr-light);
   font-weight: bolder;
+  font-size: larger;
 }
 
 .section-title-services {
@@ -183,6 +186,10 @@ h3 {
 }
 .about-me-img {
   box-shadow: var(--bs);
+}
+.p-about-body {
+  font-weight: 700;
+  font-size: larger;
 }
 @media (min-width: 600px) {
   .about-me {
