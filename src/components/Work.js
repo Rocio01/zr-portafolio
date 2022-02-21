@@ -3,7 +3,13 @@ import ReactCapstone from '../images/react-capstone.PNG'
 import RailsCapstone from '../images/rails-time-trac.PNG'
 import JsProject from '../images/js-project.PNG'
 import Copito from '../images/copito-bot.PNG'
+import { useSelector } from 'react-redux';
 const Work = () => {
+
+    const worksState = useSelector((state) => state.worksReducer.works)
+    console.log(worksState)
+
+    
   return (
     <section className="my-work" id="work">
     <h2 className="section-title section-title-work">My work</h2>
