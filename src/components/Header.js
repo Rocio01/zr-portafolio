@@ -1,17 +1,18 @@
 import React from 'react'
 import logo from '../images/eyeglasses-g08fdd365f_640.png'
+import '../header.css'
 
 
 const Header = () => {
   return (
-    <header>
+    <header >
       <div className="logo">
         <img src={logo} alt='logo'/>
       </div>
       <button className="nav-toggle" aria-label='toggle navigation'>
         <span className='hamburger'></span>
       </button>
-    <nav>
+    <nav className='nav'>
       <ul className='nav-list'>
       <li className="nav-item"><a href="#home" className="nav-link">Home</a></li>
       <li className="nav-item"><a href="#services" className="nav-link">My Services</a></li>
