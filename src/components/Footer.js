@@ -1,4 +1,10 @@
 import React from 'react'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faClock, // the clock icon
+  faUserCircle, // the user circle icon
+  faCoffee, // a cup of coffee
+} from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
@@ -10,6 +16,10 @@ const Footer = () => {
         <li className="social-list-item"><a className="social-list-link" href="https://twitter.com">c</a></li>
         <li className="social-list-item"><a className="social-list-link" href="https://github.com">d</a></li>
     </ul>
+    <FontAwesomeIcon
+          icon={faClock}
+          style={{ fontSize: 100, color: "blue", marginRight: 30 }}
+        />
 </footer>
   )
 }
