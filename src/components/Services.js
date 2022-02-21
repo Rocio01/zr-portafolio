@@ -3,7 +3,7 @@ import React from 'react'
 const Services = () => {
   return (
     <section className="my-services" id="services">
-            <h2 className="section-title section-title-services">What I do</h2>
+            <h2 className="section-title section-title-services">My services</h2>
             <div className="services">
                 <div className="service">
                     <h3>Development</h3>

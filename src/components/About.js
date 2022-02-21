@@ -3,7 +3,7 @@ import Computer from '../images/tag.PNG'
 const About = () => {
   return (
     <section className="about-me" id="about">
-    <h2 className="section-title section-title-about">Who I am</h2>
+    <h2 className="section-title section-title-about">About me</h2>
     <p className="section-subtitle section-subtitle-about">I am a Full Stack software developer</p>
     
     <div className="about-me-body">
