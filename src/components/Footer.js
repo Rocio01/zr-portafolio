@@ -2,7 +2,7 @@ import React from 'react'
  import { FaGithub, FaTwitter, FaLinkedin} from "react-icons/fa";
 const Footer = () => {
   return (
-    <footer>
+    <footer id='footer'>
     <a href="mailto:zrmartinezg@gmail.com" className="footer-link">zrmartinezg@gmail.com</a>
     <ul className="social-list">
         <li className="social-list-item"><a className="social-list-link" href="https://github.com/Rocio01"><FaGithub /* style={{ fontSize: 100, color: "blue", marginRight: 30 }}*/ /> </a></li> 

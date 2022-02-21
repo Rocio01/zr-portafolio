@@ -18,6 +18,8 @@ const Header = () => {
       <li className="nav-item"><a href="#services" className="nav-link" onClick={()=> { document.body.classList.remove('nav-open')}}>My Services</a></li>
       <li className="nav-item"><a href="#about" className="nav-link"onClick={()=> { document.body.classList.remove('nav-open')}}>About me</a></li>
       <li className="nav-item"><a href="#work" className="nav-link"onClick={()=> { document.body.classList.remove('nav-open')}}>My Work</a></li>
+      <li className="nav-item"><a href="#footer" className="nav-link"onClick={()=> { document.body.classList.remove('nav-open')}}>Contact me</a></li>
+
       </ul>
     </nav>
     </header>
