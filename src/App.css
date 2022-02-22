@@ -216,13 +216,13 @@ h3 {
 }
 
 .my-work {
-  background-color: var(--clr-dark);
-  color: var(--clr-light);
+  background-color: var(--clr-accent);
+  color: var(--clr-dark);
   text-align: center;
 }
 
 .section-subtitle-work {
-  color: var(--clr-accent);
+  color: var(--clr-dark);
   font-weight: var(--fw-bold);
   margin-bottom: 2em;
 }
