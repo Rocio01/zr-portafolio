@@ -1,13 +1,15 @@
 import React from 'react'
-import { useSelector } from 'react-redux';
-import { useParams } from 'react-router';
+import { useSelector } from 'react-redux'
+import { useParams } from 'react-router'
+
+import {Link} from 'react-router-dom'
 import glasses from '../images/eyeglasses-g08fdd365f_640.png'
 import ReactCapstone from '../images/react-capstone.PNG'
 import RailsCapstone from '../images/rails-time-trac.PNG'
 import JsProject from '../images/js-project.PNG'
 import Copito from '../images/copito-bot.PNG'
 import '../detailed.css'
-import { FaGithub} from "react-icons/fa"
+import { FaGithub,  FaArrowLeft} from "react-icons/fa"
 
 const DetailedWork = () => {
   const worksState = useSelector((state) => state.worksReducer.works)
@@ -21,7 +23,7 @@ const DetailedWork = () => {
  
   return (
     <>
-
+ <Link to={"/"} className="btn" style={{ textAlign: "center", marginRight: "1em"}} ><FaArrowLeft  style={{ fontSize: 20}}/> </Link>
     { filteredWork.map((work) => (
       <div key={work.id}>
       <section className="intro intro-detailed" key={work.id}>

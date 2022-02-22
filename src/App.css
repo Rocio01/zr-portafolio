@@ -42,7 +42,7 @@ html {
   display: inline-block;
   padding: 0.5em 1.5em;
   background: var(--clr-accent);
-  color: var(--clr-light);
+  color: var(--clr-dark);
   text-decoration: none;
   cursor: pointer;
   font-size: 1rem;
