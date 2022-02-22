@@ -13,7 +13,7 @@
   --fw-bold: 900;
 
   --clr-light: #fbeef1;
-  --clr-dark: #fb8500;
+  --clr-dark: #552e02;
   --clr-accent: #ffb703;
 
   --fs-h1: 3rem;
@@ -111,6 +111,9 @@ h3 {
 
 .section-title-intro {
   font-weight: var(--fw-reg);
+}
+.intro-paragraph .p-works {
+  color: white;
 }
 
 .section-subtitle-intro,

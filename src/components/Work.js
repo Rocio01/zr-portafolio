@@ -16,7 +16,7 @@ const Work = () => {
   return (
     <section className="my-work" id="work">
     <h2 className="section-title section-title-work">My work</h2>
-    <p className="section-subtitle section-subtitle-work">Some examples of my work</p>
+    <p className="section-subtitle section-subtitle-work p-works">Some examples of my work click to see more</p>
     
     <div className="portfolio">
         {worksState.map((work) => (
